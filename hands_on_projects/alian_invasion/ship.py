@@ -13,7 +13,7 @@ class Ship():
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
 
-        # set the position related to the screen(container)
+        # set the ship position related to the screen(container)
         self.rect.centerx = self.screen_rect.centerx
         self.rect.bottom = self.screen_rect.bottom
         # self.rect.centery = self.screen_rect.centery
@@ -49,3 +49,8 @@ class Ship():
     def blitme(self):
         '''draw a ship in a specific location'''
         self.screen.blit(self.image, self.rect)
+
+    def center_ship(self):
+        '''center the ship'''
+        self.rect.centerx = self.screen_rect.centerx
+        self.rect.bottom = self.screen_rect.bottom
