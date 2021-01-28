@@ -1,48 +1,33 @@
-<div align=center margin= auto> 
-  <img src="img.png"  width=80%>
-</div>
+![screenshot](https://user-images.githubusercontent.com/35544956/106092765-f8f89d80-60fc-11eb-8f41-85afcb9817aa.png)
+
 
 # 👽 Alien Invasion
-Alien invasion is a clone of popular arcade game with same name.
-I created this game by following the "Python Crash Course" book. The reason was to improve my python skills.
+Thank to the book *Python Crash Course*,, I created Alien invasion, which a clone of popular arcade game with same name.
+I set a goal to read 100 pages or 5 hours per day. I found myself stuck around page 1000 in the book *Learning Python* by Mark Lutz, so I decided to find some projects to dig deeper in OOP. 
 
 ## 🚀 Introduction
-> In Alien Invasion, the player controls a ship that appears at
-the bottom center of the screen. The player can move the ship
-right and left using the arrow keys and shoot bullets using the
-spacebar. When the game begins, a fleet of aliens fills the sky
-and moves across and down the screen. The player shoots and
-destroys the aliens. If the player shoots all the aliens, a new fleet
-appears that moves faster than the previous fleet. If any alien hits
-the player’s ship or reaches the bottom of the screen, the player
-loses a ship. If the player loses three ships, the game ends.
+> You can control the ship with LEFT, RIGHT, UP and DOWN errow keys. You can shoot bullets with SPACE bar. By default, you have 3 lives. 
+> Your highest score will be recorded in the top middle.
 
 ## 🔧 Requeriments
-- [Python](https://www.python.org/) 3.x +
-- [Pygame](https://www.pygame.org/)
+Python and PyGame
 
-## :video_game: Controls
-
-- Space-bar
-  - Shoot
-
-- Arrows keys (left - right)
-  - Move the ship left / right
 
 ## ⚔ Let's play
 
 ### Cloning the Repository
 
 ```
-$ git clone https://github.com/bryanlds/Alien-Invasion.git
+$ git clone https://github.com/zjian107-su/learningPython.git
 
-$ cd Alien-Invasion
+$ cd hands_on_projects/alien_invasion
+
 ```
 
 ### Running 
 
 ```
-$ python alien_invasion.py
+$ python alien_invasion.py  
 ``` 
 
 Enjoy!
