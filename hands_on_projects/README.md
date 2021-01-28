@@ -1,6 +1,3 @@
-
-
-
 # 👽 Alien Invasion
 Thank to the book *Python Crash Course*, I created Alien invasion, which a clone of popular arcade game with same name.
 I set a goal to read 100 pages or 5 hours per day. However, I found myself stuck at page 1100 of the book *Learning Python* by Mark Lutz, so I decided to find some projects to dig deeper in OOP. 
@@ -9,7 +6,7 @@ I set a goal to read 100 pages or 5 hours per day. However, I found myself stuck
 > You can control the ship with LEFT, RIGHT, UP and DOWN arrow keys. You can shoot bullets with SPACE bar. By default, you have 3 lives. 
 > Your highest score will be recorded in the top middle.
 
-## 🔧 Requeriments
+## 🔧 Requirements
 Python and PyGame
 
 ## ⚔ Let's play
